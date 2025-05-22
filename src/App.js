@@ -1,11 +1,13 @@
 import './App.css';
-import RestaurantExplorerComponent from './components/RestaurantExplorerComponent';
+import SearchNearbyComponent from './components/SearchNearbyComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <RestaurantExplorerComponent />
+        <h1>Restaurant Explorer</h1>
+        <p>Explore nearby restaurants and their details.</p>
+        <SearchNearbyComponent />
       </header>
     </div>
   );
